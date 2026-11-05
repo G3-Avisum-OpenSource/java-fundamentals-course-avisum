@@ -1,4 +1,4 @@
-public class SistemaEstudiantes {
+public class Main {
     public static void main(String[] args) {
         Estudiante alumno1 = new Estudiante("Lucía", 16, 18.0);
         Estudiante alumno2 = new Estudiante("Mateo", 15, 14.5);
