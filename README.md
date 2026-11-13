@@ -13,12 +13,19 @@ Este curso de 1 hora introduce a estudiantes de secundaria a los fundamentos de 
 - **Descripción**: Aprende qué es la programación y por qué Java es un excelente lenguaje para empezar.
 - **Conclusiones clave**: Java se usa para aplicaciones y juegos; los programas son instrucciones para computadoras.
 
-### Lección 2: Variables y tipos de datos 
-- **Descripción**: Aprende a guardar información en Java usando variables. Conoce los tipos principales: `int`, `String`, `double` y `boolean`.
+### Lección 2: Variables y tipos de datos (9 minutos)
+- **Descripción**: Aprende a guardar información en Java usando variables.
+  Conoce los cinco tipos básicos: `int`, `String`, `double`, `char` y `boolean`.
+- **Enlace**: [▶ Ver la lección](https://www.youtube.com/watch?v=zOxLJ29nGB4)
 - **Conclusiones clave**:
   - Una variable es una cajita con nombre que guarda un dato.
-  - `int` para números enteros, `String` para texto (entre comillas), `double` para decimales, `boolean` para verdadero/falso.
+  - `int` para números enteros, `double` para decimales, `String` para texto (entre comillas dobles), `char` para un solo carácter (entre comillas simples) y `boolean` para verdadero/falso.
+  - Se declara así: `int edad = 15;` o `String nombre = "Lucía";`
+  - El valor de una variable puede cambiar: `puntos = 25;` (sin volver a escribir el tipo).
   - El `+` une texto con variables (concatenación).
+  - Errores comunes: olvidar el `;`, escribir `string` en minúscula y empezar un nombre con número.
+- **Práctica**: [🖥 Clic para programar en OnlineGDB](https://www.onlinegdb.com/)
+  - Reto: crea variables con tu nombre, edad, estatura y si te gusta el fútbol, y muestra una frase que las una.
 
 ### Lección 3: Estructuras de control: Decisiones y bucles 
 - **Descripción**: Toma decisiones con if-else y repite tareas con bucles.
