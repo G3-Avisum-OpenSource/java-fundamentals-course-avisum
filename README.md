@@ -35,9 +35,19 @@ Este curso de 1 hora introduce a estudiantes de secundaria a los fundamentos de 
 - **Conclusiones clave**: `if (nota >= 11) {};` `for (int i=1; i<=5; i++) {}`
 
 
-### Lección 4: Métodos, Entrada/Salida e Introducción a la POO 
-- **Descripción**: Crea código reutilizable con métodos, obtén la entrada del usuario e introduce clases/objetos.
-- **Conclusiones clave**: `public static void saludar() {};` Use `Scanner`; `class Estudiante { String nombre; }`
+### Lección 4: Métodos, Entrada/Salida e Introducción a la POO
+- **Descripción**: Crea código reutilizable con métodos, obtén la entrada del usuario con `Scanner` e introduce clases y objetos.
+- **Enlace**: [▶ Ver la lección](https://youtu.be/xHhq0Xlrsgo)
+- **Conclusiones clave**:
+  - Un método agrupa instrucciones reutilizables: `public static void saludar() {}`
+  - `Scanner` permite leer datos del usuario por consola: `Scanner scanner = new Scanner(System.in);`
+  - `scanner.nextLine()` lee texto y `scanner.nextInt()` lee números enteros.
+  - Los métodos pueden recibir parámetros y llamarse desde `main`: `saludarUsuario(nombre, edad);`
+  - Una clase define atributos y métodos: `class Estudiante { String nombre; }`
+  - Errores comunes: olvidar `import java.util.Scanner;`, mezclar `nextLine()` con `nextInt()` y no nombrar el archivo igual que la clase pública (`Main.java`).
+- **Práctica**: [🖥 Clic para programar en OnlineGDB](https://onlinegdb.com/t4AFpiVWk)
+  - Reto: pide al usuario su nombre y edad por consola y muestra un saludo personalizado usando un método.
+
 
 ### Lección 5: Fundamentos de POO y programas sencillos
 - **Descripción**: Construye clases con atributos/métodos y crea un programa POO básico.
