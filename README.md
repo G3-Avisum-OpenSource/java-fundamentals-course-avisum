@@ -72,11 +72,17 @@ Este curso de 1 hora introduce a estudiantes de secundaria a los fundamentos de 
 
 ### Lección 5: Fundamentos de POO y programas sencillos
 - **Descripción**: Construye clases con atributos/métodos y crea un programa POO básico.
-- **Conclusiones clave**: Encapsulación con getters/setters; Construye un registro interactivo de "Estudiantes".
+- **Enlace**: [▶ Ver la lección]([https://youtu.be/_TEqpwx-bys])
+- **Conclusiones clave**:
+  - La encapsulación protege los atributos declarando variables como `private`: `private String nombre;`
+  - Los **getters** permiten leer atributos privados de forma controlada: `public String getNombre() { return nombre; }`
+  - Los **setters** permiten modificar atributos aplicando validaciones: `public void setEdad(int edad) { this.edad = edad; }`
+  - Los constructores inicializan el estado de un objeto al instanciarlo con `new`: `Estudiante est = new Estudiante("Lucia", 16);`
+  - Un programa POO separa la lógica del modelo (`Estudiante.java`) de la ejecución principal (`SistemaEstudiantes.java`).
+  - Errores comunes: intentar acceder directamente a atributos `private` desde otra clase, olvidar `this.` cuando el parámetro tiene el mismo nombre que el atributo, y omitir un constructor vacío si se necesita instanciar sin datos iniciales.
+- **Práctica**: [🖥 Clic para programar en OnlineGDB](https://onlinegdb.com/t4AFpiVWk)
+  - Reto: crea una clase `Estudiante` con atributos privados (`nombre`, `edad`, `notaFinal`), sus getters/setters y construye un registro interactivo por consola que permita registrar y mostrar los datos de un estudiante.
 
-### Lección 6: Consejos y próximos pasos
-- **Descripción**: Mejores prácticas, errores comunes y dónde aprender más.
-- **Consejos clave**: Depurar errores, explorar la documentación de Oracle Java.
 
 ---
 
