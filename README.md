@@ -9,9 +9,30 @@ Este curso de 1 hora introduce a estudiantes de secundaria a los fundamentos de 
 
 ## Secuencia de la Lección
 
-### Lección 1: ¿Qué es Java y la Programación? 
-- **Descripción**: Aprende qué es la programación y por qué Java es un excelente lenguaje para empezar.
-- **Conclusiones clave**: Java se usa para aplicaciones y juegos; los programas son instrucciones para computadoras.
+### Lección 1: ¿Qué es Java y la Programación?
+
+- **Descripción**: Aprende qué es la programación, para qué se usa Java y cómo ejecutar tu primer programa para mostrar un mensaje de bienvenida en la consola.
+- **Enlace**: [▶ Ver la lección](https://youtu.be/fS7AWLMwM6g?si=hxohxDOj0EWnthvv)
+- **Conclusiones clave**:
+  - Programar consiste en escribir instrucciones para que una computadora realice una tarea.
+  - Java es un lenguaje de programación que se usa para crear aplicaciones y juegos.
+  - En este ejemplo, la ejecución empieza en el método `main` y sigue las instrucciones de arriba hacia abajo.
+  - `System.out.println` muestra texto en la consola y agrega un salto de línea.
+- **Práctica**: [🖥 Clic para programar en OnlineGDB](https://www.onlinegdb.com/)
+  - **Reto**: Selecciona Java, copia el código y cambia el saludo por uno propio. Ejecuta el programa y comprueba que tu mensaje aparece entre las dos líneas de signos de igual.
+
+- **Código fuente** (`Main.java`):
+
+  ```java
+  public class Main {
+      public static void main(String[] args) {
+          System.out.println("==================================");
+          System.out.println("  ¡Hola! Bienvenido a Programación ");
+          System.out.println("==================================");
+          System.out.println("Este es tu primer programa en Java.");
+      }
+  }
+  ```
 
 ### Lección 2: Variables y tipos de datos (9 minutos)
 - **Descripción**: Aprende a guardar información en Java usando variables.
