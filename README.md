@@ -72,7 +72,7 @@ Este curso de 1 hora introduce a estudiantes de secundaria a los fundamentos de 
 
 ### Lección 5: Fundamentos de POO y programas sencillos
 - **Descripción**: Construye clases con atributos/métodos y crea un programa POO básico.
-- **Enlace**: [▶ Ver la lección]([https://youtu.be/_TEqpwx-bys])
+- **Enlace**: [▶ Ver la lección](https://youtu.be/_TEqpwx-bys)
 - **Conclusiones clave**:
   - La encapsulación protege los atributos declarando variables como `private`: `private String nombre;`
   - Los **getters** permiten leer atributos privados de forma controlada: `public String getNombre() { return nombre; }`
