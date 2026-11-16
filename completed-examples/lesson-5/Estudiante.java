@@ -1,4 +1,4 @@
-public class Main {
+public class Estudiante {
     private String nombre;
     private int edad;
     private double notaFinal;
